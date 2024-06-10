@@ -1,9 +1,23 @@
 html {
   height: 100%;
   width: 100%;
+  background-color:deeppink
 }
 
 footer {
   text-align: center;
   font-size: x-small;
+  background-color:blueviolet
+}
+
+.purple-element {
+  background-color:blueviolet;
+  color: lightpink;
+  font-style: italic;
+  padding-left: 6px;
+}
+
+.navigation {
+  justify-content: center;
+  font-size: x-large;
 }

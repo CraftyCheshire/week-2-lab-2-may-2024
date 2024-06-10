@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    h2 {
+      background-color: #B303B8;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Courier New';
+      font-size: 40px
+    }
+     header {
+        background-color: #B303B8;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-size: xx-large;
+      }
+     nav {
+        background-color: #B303B8;
+        color: pink;
+        padding: 10px;
+       text-align: center;
+      }
+     img {
+        margin: 24px;
+        border: 3px dotted black;
+       padding: 20px;
+      }
+     .flex-container {
+       display: flex;
+        background-color: rgba(195, 28, 192, 0.688);
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .flex-container > div {
+       background-color: black;
+        color: white;
+       margin: 10px;
+        padding: 1px;
+      }
+    </style>
+
+</head>
+<body>
+  <nav class="navigation">
+    <a href="home.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <header style="font-family: Tahoma;">
+    Gallery
+  </header>
+  
+  <div class="flex-container">
+    <div>
+      <img
+      alt="doodle eye"
+      width="200px"
+      height="150px"
+      src="https://t4.ftcdn.net/jpg/00/32/18/37/240_F_32183702_xjDy7vJ9snE8O573PnVS7k9AglCuVElJ.jpg">
+    </div>
+    <div><img
+      alt="sketch doodle"
+      width="400px"
+      height="150px"
+      src="https://t4.ftcdn.net/jpg/06/63/31/69/240_F_663316934_DzbxinwKU5d6NCbhhSmHxiZSdfP16dm8.jpg">
+    </div>
+   <div><img
+    alt="scribble doodle"
+    width="250px"
+    height="150px"
+    src="https://t3.ftcdn.net/jpg/01/09/70/06/240_F_109700670_ArOerea2Qxm1tSARu7LeZM8cPblPZKRa.jpg">
+  </div> 
+  <div><img
+    alt="season 4"
+    width="200px"
+    height="200px"
+    src="https://t3.ftcdn.net/jpg/03/31/77/68/240_F_331776830_aILUauKyVHqjWHE7rk9GZpxZKgAWewC5.jpg">
+  </div> 
+  </div>
+
+  <h2>More Photos</h2>
+
+  <article>
+    <img 
+      alt="Floral Sketch"
+      width="403px"
+      height="200px"
+      src="https://images.pexels.com/photos/1643964/pexels-photo-1643964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <img 
+      alt="kid doodling"
+      width="200px"
+      height="200px"
+      src="https://images.pexels.com/photos/7023744/pexels-photo-7023744.jpeg?auto=compress&cs=tinysrgb&w=600">
+    <img 
+      alt="kids drawing"
+      width="200px"
+      height="200px"
+      src="https://images.pexels.com/photos/4966376/pexels-photo-4966376.jpeg?auto=compress&cs=tinysrgb&w=600">
+  </article>
+  <script src="script.js"></script>
+</body>
+</html>
